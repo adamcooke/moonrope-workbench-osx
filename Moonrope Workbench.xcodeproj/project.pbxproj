@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		66A4D93A1982466300D22A80 /* workbench in Resources */ = {isa = PBXBuildFile; fileRef = 66A4D9391982466300D22A80 /* workbench */; };
+		66AFB21E19825134002C3910 /* MWBJavascript.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AFB21D19825134002C3910 /* MWBJavascript.m */; };
+		66AFB22019826123002C3910 /* moon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 66AFB21F19826123002C3910 /* moon.icns */; };
 		66CDAB091981A8A500A868FE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CDAB081981A8A500A868FE /* Cocoa.framework */; };
 		66CDAB131981A8A500A868FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66CDAB111981A8A500A868FE /* InfoPlist.strings */; };
 		66CDAB151981A8A500A868FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDAB141981A8A500A868FE /* main.m */; };
@@ -32,6 +34,9 @@
 
 /* Begin PBXFileReference section */
 		66A4D9391982466300D22A80 /* workbench */ = {isa = PBXFileReference; lastKnownFileType = folder; name = workbench; path = markup/workbench; sourceTree = "<group>"; };
+		66AFB21C19825134002C3910 /* MWBJavascript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWBJavascript.h; sourceTree = "<group>"; };
+		66AFB21D19825134002C3910 /* MWBJavascript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWBJavascript.m; sourceTree = "<group>"; };
+		66AFB21F19826123002C3910 /* moon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = moon.icns; sourceTree = "<group>"; };
 		66CDAB051981A8A500A868FE /* Moonrope Workbench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moonrope Workbench.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CDAB081981A8A500A868FE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		66CDAB0B1981A8A500A868FE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -76,6 +81,7 @@
 		66CDAAFC1981A8A500A868FE = {
 			isa = PBXGroup;
 			children = (
+				66AFB21F19826123002C3910 /* moon.icns */,
 				66A4D9391982466300D22A80 /* workbench */,
 				66CDAB0E1981A8A500A868FE /* Moonrope Workbench */,
 				66CDAB071981A8A500A868FE /* Frameworks */,
@@ -121,6 +127,8 @@
 				66CDAB1D1981A8A500A868FE /* MainMenu.xib */,
 				66CDAB201981A8A500A868FE /* Images.xcassets */,
 				66CDAB0F1981A8A500A868FE /* Supporting Files */,
+				66AFB21C19825134002C3910 /* MWBJavascript.h */,
+				66AFB21D19825134002C3910 /* MWBJavascript.m */,
 			);
 			path = "Moonrope Workbench";
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 				66CDAB191981A8A500A868FE /* Credits.rtf in Resources */,
 				66A4D93A1982466300D22A80 /* workbench in Resources */,
 				66CDAB1F1981A8A500A868FE /* MainMenu.xib in Resources */,
+				66AFB22019826123002C3910 /* moon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66AFB21E19825134002C3910 /* MWBJavascript.m in Sources */,
 				66CDAB151981A8A500A868FE /* main.m in Sources */,
 				66CDAB1C1981A8A500A868FE /* MWBAppDelegate.m in Sources */,
 			);
@@ -359,7 +369,6 @@
 		66CDAB371981A8A500A868FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Moonrope Workbench/Moonrope Workbench-Prefix.pch";
@@ -372,7 +381,6 @@
 		66CDAB381981A8A500A868FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Moonrope Workbench/Moonrope Workbench-Prefix.pch";

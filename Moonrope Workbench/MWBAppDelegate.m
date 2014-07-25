@@ -7,11 +7,15 @@
 //
 
 #import "MWBAppDelegate.h"
+#import "MWBJavascript.h"
 
 @implementation MWBAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    MWBJavascript *js = [[MWBJavascript alloc] init];
+    id win = [self.webView windowScriptObject];
+    [win setValue:js forKey:@"mwbJS"];
 
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html" inDirectory:@"workbench"];
     NSURL* fileURL = [NSURL fileURLWithPath:filePath];
@@ -19,7 +23,7 @@
     
     [[self.webView mainFrame] loadRequest:request];
     self.webView.UIDelegate = self;
-    
+    self.webView.resourceLoadDelegate = self;
 }
 
 - (void)webView:(WebView *)sender runJavaScriptAlertPanelWithMessage:(NSString *)message initiatedByFrame:(WebFrame *)frame {
