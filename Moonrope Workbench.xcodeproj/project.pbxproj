@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		667DBA4B1981B79F0045295B /* site in Resources */ = {isa = PBXBuildFile; fileRef = 66A1BB101981B5D100C91EC7 /* site */; };
+		66CDAB091981A8A500A868FE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CDAB081981A8A500A868FE /* Cocoa.framework */; };
+		66CDAB131981A8A500A868FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66CDAB111981A8A500A868FE /* InfoPlist.strings */; };
+		66CDAB151981A8A500A868FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDAB141981A8A500A868FE /* main.m */; };
+		66CDAB191981A8A500A868FE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 66CDAB171981A8A500A868FE /* Credits.rtf */; };
+		66CDAB1C1981A8A500A868FE /* MWBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDAB1B1981A8A500A868FE /* MWBAppDelegate.m */; };
+		66CDAB1F1981A8A500A868FE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66CDAB1D1981A8A500A868FE /* MainMenu.xib */; };
+		66CDAB211981A8A500A868FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CDAB201981A8A500A868FE /* Images.xcassets */; };
+		66CDAB281981A8A500A868FE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CDAB271981A8A500A868FE /* XCTest.framework */; };
+		66CDAB291981A8A500A868FE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CDAB081981A8A500A868FE /* Cocoa.framework */; };
+		66CDAB3D1981A8FF00A868FE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CDAB3C1981A8FF00A868FE /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66CDAB2A1981A8A500A868FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66CDAAFD1981A8A500A868FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66CDAB041981A8A500A868FE;
+			remoteInfo = "Moonrope Workbench";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66A1BB101981B5D100C91EC7 /* site */ = {isa = PBXFileReference; lastKnownFileType = folder; name = site; path = markup/site; sourceTree = "<group>"; };
+		66CDAB051981A8A500A868FE /* Moonrope Workbench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moonrope Workbench.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CDAB081981A8A500A868FE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		66CDAB0B1981A8A500A868FE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		66CDAB0C1981A8A500A868FE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		66CDAB0D1981A8A500A868FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66CDAB101981A8A500A868FE /* Moonrope Workbench-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Moonrope Workbench-Info.plist"; sourceTree = "<group>"; };
+		66CDAB121981A8A500A868FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66CDAB141981A8A500A868FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66CDAB161981A8A500A868FE /* Moonrope Workbench-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Moonrope Workbench-Prefix.pch"; sourceTree = "<group>"; };
+		66CDAB181981A8A500A868FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		66CDAB1A1981A8A500A868FE /* MWBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWBAppDelegate.h; sourceTree = "<group>"; };
+		66CDAB1B1981A8A500A868FE /* MWBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWBAppDelegate.m; sourceTree = "<group>"; };
+		66CDAB1E1981A8A500A868FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		66CDAB201981A8A500A868FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66CDAB261981A8A500A868FE /* Moonrope WorkbenchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moonrope WorkbenchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CDAB271981A8A500A868FE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		66CDAB3C1981A8FF00A868FE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66CDAB021981A8A500A868FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CDAB3D1981A8FF00A868FE /* WebKit.framework in Frameworks */,
+				66CDAB091981A8A500A868FE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CDAB231981A8A500A868FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CDAB291981A8A500A868FE /* Cocoa.framework in Frameworks */,
+				66CDAB281981A8A500A868FE /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66CDAAFC1981A8A500A868FE = {
+			isa = PBXGroup;
+			children = (
+				66A1BB101981B5D100C91EC7 /* site */,
+				66CDAB0E1981A8A500A868FE /* Moonrope Workbench */,
+				66CDAB071981A8A500A868FE /* Frameworks */,
+				66CDAB061981A8A500A868FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66CDAB061981A8A500A868FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66CDAB051981A8A500A868FE /* Moonrope Workbench.app */,
+				66CDAB261981A8A500A868FE /* Moonrope WorkbenchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66CDAB071981A8A500A868FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66CDAB3C1981A8FF00A868FE /* WebKit.framework */,
+				66CDAB081981A8A500A868FE /* Cocoa.framework */,
+				66CDAB271981A8A500A868FE /* XCTest.framework */,
+				66CDAB0A1981A8A500A868FE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66CDAB0A1981A8A500A868FE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66CDAB0B1981A8A500A868FE /* AppKit.framework */,
+				66CDAB0C1981A8A500A868FE /* CoreData.framework */,
+				66CDAB0D1981A8A500A868FE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		66CDAB0E1981A8A500A868FE /* Moonrope Workbench */ = {
+			isa = PBXGroup;
+			children = (
+				66CDAB1A1981A8A500A868FE /* MWBAppDelegate.h */,
+				66CDAB1B1981A8A500A868FE /* MWBAppDelegate.m */,
+				66CDAB1D1981A8A500A868FE /* MainMenu.xib */,
+				66CDAB201981A8A500A868FE /* Images.xcassets */,
+				66CDAB0F1981A8A500A868FE /* Supporting Files */,
+			);
+			path = "Moonrope Workbench";
+			sourceTree = "<group>";
+		};
+		66CDAB0F1981A8A500A868FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66CDAB101981A8A500A868FE /* Moonrope Workbench-Info.plist */,
+				66CDAB111981A8A500A868FE /* InfoPlist.strings */,
+				66CDAB141981A8A500A868FE /* main.m */,
+				66CDAB161981A8A500A868FE /* Moonrope Workbench-Prefix.pch */,
+				66CDAB171981A8A500A868FE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66CDAB041981A8A500A868FE /* Moonrope Workbench */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66CDAB361981A8A500A868FE /* Build configuration list for PBXNativeTarget "Moonrope Workbench" */;
+			buildPhases = (
+				66CDAB011981A8A500A868FE /* Sources */,
+				66CDAB021981A8A500A868FE /* Frameworks */,
+				66CDAB031981A8A500A868FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Moonrope Workbench";
+			productName = "Moonrope Workbench";
+			productReference = 66CDAB051981A8A500A868FE /* Moonrope Workbench.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66CDAB251981A8A500A868FE /* Moonrope WorkbenchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66CDAB391981A8A500A868FE /* Build configuration list for PBXNativeTarget "Moonrope WorkbenchTests" */;
+			buildPhases = (
+				66CDAB221981A8A500A868FE /* Sources */,
+				66CDAB231981A8A500A868FE /* Frameworks */,
+				66CDAB241981A8A500A868FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66CDAB2B1981A8A500A868FE /* PBXTargetDependency */,
+			);
+			name = "Moonrope WorkbenchTests";
+			productName = "Moonrope WorkbenchTests";
+			productReference = 66CDAB261981A8A500A868FE /* Moonrope WorkbenchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66CDAAFD1981A8A500A868FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MWB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Adam Cooke";
+				TargetAttributes = {
+					66CDAB251981A8A500A868FE = {
+						TestTargetID = 66CDAB041981A8A500A868FE;
+					};
+				};
+			};
+			buildConfigurationList = 66CDAB001981A8A500A868FE /* Build configuration list for PBXProject "Moonrope Workbench" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66CDAAFC1981A8A500A868FE;
+			productRefGroup = 66CDAB061981A8A500A868FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66CDAB041981A8A500A868FE /* Moonrope Workbench */,
+				66CDAB251981A8A500A868FE /* Moonrope WorkbenchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66CDAB031981A8A500A868FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CDAB131981A8A500A868FE /* InfoPlist.strings in Resources */,
+				667DBA4B1981B79F0045295B /* site in Resources */,
+				66CDAB211981A8A500A868FE /* Images.xcassets in Resources */,
+				66CDAB191981A8A500A868FE /* Credits.rtf in Resources */,
+				66CDAB1F1981A8A500A868FE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CDAB241981A8A500A868FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66CDAB011981A8A500A868FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CDAB151981A8A500A868FE /* main.m in Sources */,
+				66CDAB1C1981A8A500A868FE /* MWBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CDAB221981A8A500A868FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66CDAB2B1981A8A500A868FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66CDAB041981A8A500A868FE /* Moonrope Workbench */;
+			targetProxy = 66CDAB2A1981A8A500A868FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66CDAB111981A8A500A868FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66CDAB121981A8A500A868FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66CDAB171981A8A500A868FE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66CDAB181981A8A500A868FE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		66CDAB1D1981A8A500A868FE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66CDAB1E1981A8A500A868FE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66CDAB341981A8A500A868FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		66CDAB351981A8A500A868FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		66CDAB371981A8A500A868FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Moonrope Workbench/Moonrope Workbench-Prefix.pch";
+				INFOPLIST_FILE = "Moonrope Workbench/Moonrope Workbench-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66CDAB381981A8A500A868FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Moonrope Workbench/Moonrope Workbench-Prefix.pch";
+				INFOPLIST_FILE = "Moonrope Workbench/Moonrope Workbench-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		66CDAB3A1981A8A500A868FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Moonrope Workbench.app/Contents/MacOS/Moonrope Workbench";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Moonrope Workbench/Moonrope Workbench-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Moonrope WorkbenchTests/Moonrope WorkbenchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		66CDAB3B1981A8A500A868FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Moonrope Workbench.app/Contents/MacOS/Moonrope Workbench";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Moonrope Workbench/Moonrope Workbench-Prefix.pch";
+				INFOPLIST_FILE = "Moonrope WorkbenchTests/Moonrope WorkbenchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66CDAB001981A8A500A868FE /* Build configuration list for PBXProject "Moonrope Workbench" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CDAB341981A8A500A868FE /* Debug */,
+				66CDAB351981A8A500A868FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66CDAB361981A8A500A868FE /* Build configuration list for PBXNativeTarget "Moonrope Workbench" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CDAB371981A8A500A868FE /* Debug */,
+				66CDAB381981A8A500A868FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66CDAB391981A8A500A868FE /* Build configuration list for PBXNativeTarget "Moonrope WorkbenchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CDAB3A1981A8A500A868FE /* Debug */,
+				66CDAB3B1981A8A500A868FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66CDAAFD1981A8A500A868FE /* Project object */;
+}
