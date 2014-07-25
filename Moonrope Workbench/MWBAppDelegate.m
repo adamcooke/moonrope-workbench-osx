@@ -13,7 +13,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
 
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html" inDirectory:@"site"];
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html" inDirectory:@"workbench"];
     NSURL* fileURL = [NSURL fileURLWithPath:filePath];
     NSURLRequest* request = [NSURLRequest requestWithURL:fileURL cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:10];
     

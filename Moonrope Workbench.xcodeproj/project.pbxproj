@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		667DBA4B1981B79F0045295B /* site in Resources */ = {isa = PBXBuildFile; fileRef = 66A1BB101981B5D100C91EC7 /* site */; };
+		66A4D93A1982466300D22A80 /* workbench in Resources */ = {isa = PBXBuildFile; fileRef = 66A4D9391982466300D22A80 /* workbench */; };
 		66CDAB091981A8A500A868FE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CDAB081981A8A500A868FE /* Cocoa.framework */; };
 		66CDAB131981A8A500A868FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66CDAB111981A8A500A868FE /* InfoPlist.strings */; };
 		66CDAB151981A8A500A868FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDAB141981A8A500A868FE /* main.m */; };
@@ -31,7 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		66A1BB101981B5D100C91EC7 /* site */ = {isa = PBXFileReference; lastKnownFileType = folder; name = site; path = markup/site; sourceTree = "<group>"; };
+		66A4D9391982466300D22A80 /* workbench */ = {isa = PBXFileReference; lastKnownFileType = folder; name = workbench; path = markup/workbench; sourceTree = "<group>"; };
 		66CDAB051981A8A500A868FE /* Moonrope Workbench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moonrope Workbench.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CDAB081981A8A500A868FE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		66CDAB0B1981A8A500A868FE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -76,7 +76,7 @@
 		66CDAAFC1981A8A500A868FE = {
 			isa = PBXGroup;
 			children = (
-				66A1BB101981B5D100C91EC7 /* site */,
+				66A4D9391982466300D22A80 /* workbench */,
 				66CDAB0E1981A8A500A868FE /* Moonrope Workbench */,
 				66CDAB071981A8A500A868FE /* Frameworks */,
 				66CDAB061981A8A500A868FE /* Products */,
@@ -215,9 +215,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				66CDAB131981A8A500A868FE /* InfoPlist.strings in Resources */,
-				667DBA4B1981B79F0045295B /* site in Resources */,
 				66CDAB211981A8A500A868FE /* Images.xcassets in Resources */,
 				66CDAB191981A8A500A868FE /* Credits.rtf in Resources */,
+				66A4D93A1982466300D22A80 /* workbench in Resources */,
 				66CDAB1F1981A8A500A868FE /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
